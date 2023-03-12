@@ -45,7 +45,7 @@
         display:flex;
         background-size: contain;
         justify-content: center;
-        background: url('medicenter/imagens/img1-phone.jpg') no-repeat top center;
+        background: url('../imagens/img1-phone.jpg') no-repeat top center;
     }
     .column{
         flex-direction: column;
