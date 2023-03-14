@@ -9,26 +9,35 @@
         margin: 0px;
         padding: 0px;
     }
-    
+   
     header{
         display: flex;
         justify-content: center;
-        height: 70px;  
+        height: 70px; 
     }
-    div.container{
+    header.container0{
+        flex-direction: row; 
         display: flex;
         flex-direction: column;
         margin: 0px;
     }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        
+    }
     div.logo{
        display: flex;
-       align-items: center;
+       flex-direction: row;
     }
     div.menu{
        display: flex;
        align-items: center;
+       flex-direction: row;
        text-transform: uppercase;
        font-weight: 520;
+       
     }
     .menu > a{
         font-family: Arial, Helvetica, sans-serif;
@@ -49,6 +58,9 @@
     }
     .column{
         flex-direction: column;
+    }
+    div.container.column{
+       
     }
     .banner_headline{
         flex: 1;
@@ -177,17 +189,20 @@
    
     .widget_title{
         display: block;
-        margin: auto;
-        height: auto;
-        margin: auto;
-        
+        margin-top: 140px;   
+    }
+    .widget_title2{
+        display: block;
+        margin-top: 40px; 
     }
     .widget_title_text{
         color:black;
         font-size:21px;
         font-weight: bold;
         padding-left: 20px;
+        padding-top: 10px;
     }
+    
     .widget_title_bar{
         width: 50px;
         height: 3px;
@@ -196,7 +211,7 @@
         margin-left: 20px;
     }
     .widget_body{
-        padding: 20px;
+        padding: px;
     }
     .container2{
         max-width: 300px;
